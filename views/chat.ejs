@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohbet</title>
+    <link rel="stylesheet" href="./css/chat.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <aside>
+                <nav>
+                    <h2 id="roomName"></h2>
+                    <a href="/">Ayrıl</a>
+                </nav>
+                <div class="users" id="users"></div>
+            </aside>
+            <main>
+                <div class="messages" id="messages"></div>
+                <div class="input">
+                    <input type="text" placeholder="Metin girin.." id="input" autocomplete="off">
+                </div>
+            </main>
+        </div>
+    </div>
+    <script type="module" src="./js/chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: url("../img/wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    width: 500px;
+    max-width: 90%;
+    height: auto;
+    background: #27323a;
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.inputs {
+    width: 100%;
+}
+
+.inputs input {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    border-radius: 12px;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.inputs input:focus {
+    border-color: #7b61ff;
+    box-shadow: 0 0 10px rgba(123, 97, 255, 0.3);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #7b61ff, #5a42d6);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
